@@ -12,9 +12,9 @@ Before release:
 
 It'd be nice:
 - Store current # of failed, add to notifications
-- Change notification messages based on last status
-- Monitor bootstrap file and rerun all tests on modification
-- Monitor configuration file and rerun all tests on modification
+x Change notification messages based on last status
+x Monitor bootstrap file and rerun all tests on modification
+x Monitor configuration file and rerun all tests on modification
 
 Someday:
 - Combine multiple modifications into file delta?
