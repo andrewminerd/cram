@@ -1,0 +1,24 @@
+To do for multiple project support:
+
+- Merge test results
+x - Refactor RunTests to support multiple configs
+
+Before release:
+- Update ???
+- Documentation
+- Delete coverage directories
+- Prime notifier with beginning status of tests (from first run)
+- Project needs to update FileMonitor when rerunning tests
+
+It'd be nice:
+- Store current # of failed, add to notifications
+- Change notification messages based on last status
+- Monitor bootstrap file and rerun all tests on modification
+- Monitor configuration file and rerun all tests on modification
+
+Someday:
+- Combine multiple modifications into file delta?
+- Clear coverage when a file is deleted (for that file)?
+- Merge coverage XML files?
+- Generate coverage report?
+- Add coverage object to test result?
