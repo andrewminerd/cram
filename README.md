@@ -2,6 +2,7 @@ Cram uses PHPUnit test coverage information to monitor project files and selecti
 file modifications. Additionally, Cram can use desktop notifications from libnotify to alert you to test failures.
 
 Originally inspired by autotest & c., this provides similar functionality for PHP unit testing:
+
 * Processes code coverage reports to run only those tests covering the modified file (or, if the modified file IS a test, it runs only that test)
 * Alerts you to test failures via libnotify (for Linux users)
 * Requires no specific configuration (uses PHPUnit XML configuration files), so you're probably ready to go
