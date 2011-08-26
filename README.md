@@ -20,4 +20,6 @@ To start Cram, just invoke it with your PHPUnit configuration file:
 
 	php ./bin/monitor.php ~/myproject/tests/config.xml
 
-
+After start up, Cram will run your entire test suite once to get an initial coverage report. It then begins watching
+for file modifications in the source and test directories; as modifications are detected, the appropriate test cases
+will be automatically run.
